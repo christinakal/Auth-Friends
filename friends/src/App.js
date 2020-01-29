@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/" component={Login} />
         <PrivateRoute path="/friends" component={Friends} />
         <PrivateRoute path="/add-friend" component={AddFriend} />
       </header>

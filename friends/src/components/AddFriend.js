@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axiosWithAuth from "./Auth/axiosWithAuth";
+import './AddFriends.css';
 
 const AddFriend = (props) => {
 
@@ -27,14 +28,12 @@ const AddFriend = (props) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label htmlFor='name'>Name: </label>
-            <input type='text' name='name' value={addFriendState.name} onChange={handleChanges} />
-            <label htmlFor='age'>Age: </label>
-            <input type='text' value={addFriendState.age} onChange={handleChanges} name='age' />
-            <label htmlFor='email'>Email: </label>
-            <input type='text' value={addFriendState.email} onChange={handleChanges} name='email' />
-            <button>Add Friend</button>
+        <form className="add-friends-form" onSubmit={handleSubmit}>
+            <h1>Add more friends</h1>
+            <input type='text' name='name' placeholder="name" value={addFriendState.name} onChange={handleChanges} />
+            <input type='text' placeholder="age" value={addFriendState.age} onChange={handleChanges} name='age' />
+            <input type='email' placeholder="email" value={addFriendState.email} onChange={handleChanges} name='email' />
+            <button className="add-friends-btn">Add</button>
         </form>
     )
 }
