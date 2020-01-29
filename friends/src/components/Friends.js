@@ -15,8 +15,8 @@ const Friends = () => {
     }, [])
 
     return (
-        <div>
-            <h1>Friends</h1>
+        <div className="friends-component">
+            <h1 className="friends">Friends</h1>
             {data.map(element => {
                 console.log(element)
                 return <FriendsCard name={element.name} age={element.age} key={element.id} email={element.email} />

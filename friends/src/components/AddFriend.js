@@ -21,7 +21,6 @@ const AddFriend = (props) => {
         e.preventDefault();
         axiosWithAuth().post('/friends', addFriendState)
             .then(response => {
-                alert(`Added Friend: Name: ${response.data.name} Age: ${response.data.age} Email: ${response.data.email}.`)
                 props.history.push('/friends')
             })
             .catch(err => console.log(err));

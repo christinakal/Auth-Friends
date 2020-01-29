@@ -1,3 +1,4 @@
+
 .add-friends-btn{
     background-color: #5d5b6a;
     color: white;
@@ -8,4 +9,9 @@
 
 .add-friends-btn:hover{
     background-color: #86848f;
+}
+
+.friends{
+    color:#5d5b6a;
+    margin-top: 5%;
 }
