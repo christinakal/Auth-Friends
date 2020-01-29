@@ -1,0 +1,15 @@
+import React from "react";
+import './FriendsCard.css';
+
+const FriendsCard = props => {
+    console.log(props);
+    return (
+        <div className='card'>
+            <h3>{props.name}</h3>
+            <p>{props.age}</p>
+            <p>{props.email}</p>
+        </div>
+    )
+}
+
+export default FriendsCard;
