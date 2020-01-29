@@ -1,0 +1,15 @@
+.card{
+    max-width: 50%;
+    background-color: #eee8e0;
+    margin: 0 auto;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 15px 32px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 15px 32px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 15px 20px 0px rgba(39, 39, 39, 0.75);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color: #5d5b6a;
+    font-size: 1.5rem;
+}

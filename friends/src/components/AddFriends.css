@@ -1,0 +1,9 @@
+.add-friends-form{
+    margin-top: 5%;
+    color: #5d5b6a;
+    max-width: 30%;
+}
+
+.add-friends-form input{
+    font-size:1rem;
+}
